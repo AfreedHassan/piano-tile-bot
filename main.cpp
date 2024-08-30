@@ -55,13 +55,13 @@ void mainScript() {
 		COLORREF point4 = GetPixel(hdc, tile4[0],tile4[1]);
 		
 
-		if (checkColor(point1)) mouseClick(tile4);
+		if (checkColor(point1)) mouseClick(tile1);
 
-		if (checkColor(point2)) mouseClick(tile1);
+		if (checkColor(point2)) mouseClick(tile2);
 
-		if (checkColor(point3)) mouseClick(tile2);
+		if (checkColor(point3)) mouseClick(tile3);
 		
-		if (checkColor(point4)) mouseClick(tile3);
+		if (checkColor(point4)) mouseClick(tile4);
 
 		ReleaseDC(NULL, hdc);
 	}
