@@ -40,7 +40,7 @@ void mouseClick(int*);
 void mainScript();
 
 int main() {
-	Sleep(2000); // wait 2s;
+	Sleep(3000); // wait 3s;
 	mainScript();
     return 0;
 }
